@@ -1,0 +1,230 @@
+﻿namespace TSVFile
+{
+    partial class frmTSVFile
+    {
+        /// <summary>
+        /// 設計工具所需的變數。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清除任何使用中的資源。
+        /// </summary>
+        /// <param name="disposing">如果應該處置受控資源則為 true，否則為 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form 設計工具產生的程式碼
+
+        /// <summary>
+        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
+        /// 這個方法的內容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.mnsWord = new System.Windows.Forms.MenuStrip();
+            this.tsmiFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiOpen = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsmiExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiHelp = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.lvwWord = new System.Windows.Forms.ListView();
+            this.chWord = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.chPhonogram = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.chSoundPath = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.chExplain = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ssrWord = new System.Windows.Forms.StatusStrip();
+            this.tsslMessage = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblSearch = new System.Windows.Forms.Label();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.mnsWord.SuspendLayout();
+            this.ssrWord.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // mnsWord
+            // 
+            this.mnsWord.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.mnsWord.ImageScalingSize = new System.Drawing.Size(36, 36);
+            this.mnsWord.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiFile,
+            this.tsmiHelp});
+            this.mnsWord.Location = new System.Drawing.Point(0, 0);
+            this.mnsWord.Name = "mnsWord";
+            this.mnsWord.Size = new System.Drawing.Size(1633, 53);
+            this.mnsWord.TabIndex = 0;
+            this.mnsWord.Text = "menuStrip1";
+            // 
+            // tsmiFile
+            // 
+            this.tsmiFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiOpen,
+            this.toolStripSeparator1,
+            this.tsmiExit});
+            this.tsmiFile.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tsmiFile.Name = "tsmiFile";
+            this.tsmiFile.Size = new System.Drawing.Size(157, 49);
+            this.tsmiFile.Text = "檔案(&F)";
+            // 
+            // tsmiOpen
+            // 
+            this.tsmiOpen.Name = "tsmiOpen";
+            this.tsmiOpen.Size = new System.Drawing.Size(267, 54);
+            this.tsmiOpen.Text = "&Open";
+            this.tsmiOpen.Click += new System.EventHandler(this.tsmiOpen_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(264, 6);
+            // 
+            // tsmiExit
+            // 
+            this.tsmiExit.Name = "tsmiExit";
+            this.tsmiExit.Size = new System.Drawing.Size(267, 54);
+            this.tsmiExit.Text = "E&xit";
+            this.tsmiExit.Click += new System.EventHandler(this.tsmiExit_Click);
+            // 
+            // tsmiHelp
+            // 
+            this.tsmiHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiAbout});
+            this.tsmiHelp.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tsmiHelp.Name = "tsmiHelp";
+            this.tsmiHelp.Size = new System.Drawing.Size(165, 49);
+            this.tsmiHelp.Text = "幫助(&H)";
+            // 
+            // tsmiAbout
+            // 
+            this.tsmiAbout.Name = "tsmiAbout";
+            this.tsmiAbout.Size = new System.Drawing.Size(403, 54);
+            this.tsmiAbout.Text = "關於(&A)";
+            this.tsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
+            // 
+            // lvwWord
+            // 
+            this.lvwWord.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.chWord,
+            this.chPhonogram,
+            this.chSoundPath,
+            this.chExplain});
+            this.lvwWord.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lvwWord.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lvwWord.FullRowSelect = true;
+            this.lvwWord.HideSelection = false;
+            this.lvwWord.Location = new System.Drawing.Point(0, 53);
+            this.lvwWord.Name = "lvwWord";
+            this.lvwWord.Size = new System.Drawing.Size(1633, 901);
+            this.lvwWord.TabIndex = 2;
+            this.lvwWord.UseCompatibleStateImageBehavior = false;
+            this.lvwWord.View = System.Windows.Forms.View.Details;
+            this.lvwWord.ItemActivate += new System.EventHandler(this.lvwWord_ItemActivate);
+            // 
+            // chWord
+            // 
+            this.chWord.Text = "單字";
+            this.chWord.Width = 160;
+            // 
+            // chPhonogram
+            // 
+            this.chPhonogram.Text = "音標";
+            this.chPhonogram.Width = 109;
+            // 
+            // chSoundPath
+            // 
+            this.chSoundPath.Text = "音檔路徑";
+            this.chSoundPath.Width = 207;
+            // 
+            // chExplain
+            // 
+            this.chExplain.Text = "解釋";
+            this.chExplain.Width = 200;
+            // 
+            // ssrWord
+            // 
+            this.ssrWord.ImageScalingSize = new System.Drawing.Size(36, 36);
+            this.ssrWord.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsslMessage});
+            this.ssrWord.Location = new System.Drawing.Point(0, 908);
+            this.ssrWord.Name = "ssrWord";
+            this.ssrWord.Size = new System.Drawing.Size(1633, 46);
+            this.ssrWord.TabIndex = 4;
+            this.ssrWord.Text = "statusStrip2";
+            // 
+            // tsslMessage
+            // 
+            this.tsslMessage.Name = "tsslMessage";
+            this.tsslMessage.Size = new System.Drawing.Size(168, 35);
+            this.tsslMessage.Text = "tsslMessage";
+            // 
+            // lblSearch
+            // 
+            this.lblSearch.AutoSize = true;
+            this.lblSearch.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblSearch.Location = new System.Drawing.Point(351, 4);
+            this.lblSearch.Name = "lblSearch";
+            this.lblSearch.Size = new System.Drawing.Size(200, 46);
+            this.lblSearch.TabIndex = 5;
+            this.lblSearch.Text = "查詢單字：";
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtSearch.Location = new System.Drawing.Point(557, 7);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(120, 47);
+            this.txtSearch.TabIndex = 6;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
+            // 
+            // frmTSVFile
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 27F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1633, 954);
+            this.Controls.Add(this.txtSearch);
+            this.Controls.Add(this.lblSearch);
+            this.Controls.Add(this.ssrWord);
+            this.Controls.Add(this.lvwWord);
+            this.Controls.Add(this.mnsWord);
+            this.MainMenuStrip = this.mnsWord;
+            this.Name = "frmTSVFile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "TVS資料檔讀取";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmTSVFile_FormClosing);
+            this.Load += new System.EventHandler(this.frmTSVFile_Load);
+            this.mnsWord.ResumeLayout(false);
+            this.mnsWord.PerformLayout();
+            this.ssrWord.ResumeLayout(false);
+            this.ssrWord.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.MenuStrip mnsWord;
+        private System.Windows.Forms.ToolStripMenuItem tsmiFile;
+        private System.Windows.Forms.ListView lvwWord;
+        private System.Windows.Forms.ColumnHeader chWord;
+        private System.Windows.Forms.ColumnHeader chPhonogram;
+        private System.Windows.Forms.ColumnHeader chSoundPath;
+        private System.Windows.Forms.ColumnHeader chExplain;
+        private System.Windows.Forms.StatusStrip ssrWord;
+        private System.Windows.Forms.ToolStripStatusLabel tsslMessage;
+        private System.Windows.Forms.ToolStripMenuItem tsmiOpen;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem tsmiExit;
+        private System.Windows.Forms.ToolStripMenuItem tsmiHelp;
+        private System.Windows.Forms.ToolStripMenuItem tsmiAbout;
+        private System.Windows.Forms.Label lblSearch;
+        private System.Windows.Forms.TextBox txtSearch;
+    }
+}
+
