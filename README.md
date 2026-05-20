@@ -17,9 +17,15 @@
 
 4. 狀態列提示與安全關閉機制
 
+5. 可以用快捷鍵
+- 檔案：Alt+F
+- open：Alt+O
+- 幫助：Alt+H
+- 關於：Alt+A
+
 執行畫面截圖：
 
-1. 主介面
+1. 主介面 (按下檔案後，按下open開啟檔案)
 
 <img width="1221" height="838" alt="image" src="https://github.com/user-attachments/assets/1668ac11-d380-4b5c-9c25-1194221ade31" />
 
@@ -35,6 +41,6 @@
 
 <img width="1229" height="835" alt="image" src="https://github.com/user-attachments/assets/1441003c-a354-4224-b376-b01ade4a64ba" />
 
-5. about視窗
+5. about視窗 (介紹作者)
 
 <img width="1226" height="860" alt="image" src="https://github.com/user-attachments/assets/51ddc513-e39a-4935-8dca-5498eb285712" />
