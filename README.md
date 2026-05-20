@@ -34,3 +34,7 @@
 4. 程式關閉確認視窗
 
 <img width="1229" height="835" alt="image" src="https://github.com/user-attachments/assets/1441003c-a354-4224-b376-b01ade4a64ba" />
+
+5. about視窗
+
+<img width="1226" height="860" alt="image" src="https://github.com/user-attachments/assets/51ddc513-e39a-4935-8dca-5498eb285712" />
